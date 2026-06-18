@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" fill="none">
+  <rect width="400" height="220" rx="16" fill="#FDF4FF"/>
+  <!-- Shield shape -->
+  <path d="M200 30 L270 60 L270 120 Q270 165 200 185 Q130 165 130 120 L130 60 Z"
+        fill="url(#shieldGrad)" opacity="0.9"/>
+  <defs>
+    <linearGradient id="shieldGrad" x1="130" y1="30" x2="270" y2="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C026D3"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+  </defs>
+  <!-- Lock icon on shield -->
+  <rect x="185" y="95" width="30" height="22" rx="4" fill="white" opacity="0.9"/>
+  <path d="M192 95 Q192 82 208 82 Q224 82 224 95" stroke="white" stroke-width="4" fill="none" opacity="0.9"/>
+  <circle cx="200" cy="107" r="4" fill="#7E22CE"/>
+  <!-- Checkmarks on left and right indicating consensus -->
+  <text x="90"  y="115" font-family="sans-serif" font-size="28" font-weight="900" fill="#A855F7" opacity="0.7">✓</text>
+  <text x="295" y="115" font-family="sans-serif" font-size="28" font-weight="900" fill="#A855F7" opacity="0.7">✓</text>
+  <!-- Hash text hint -->
+  <text x="200" y="155" text-anchor="middle" font-family="monospace" font-size="9" fill="white" opacity="0.8">0x4a2f…8c1e</text>
+  <!-- Title -->
+  <text x="200" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#9333EA">Crypto &amp; Consensus</text>
+</svg>
