@@ -76,7 +76,7 @@ export default function Footer() {
                 more efficient, and ready for a global digital economy. Powered by RLNC.
               </p>
               <div className="flex flex-wrap gap-2">
-                <a href="https://x.com/getoptimum" target="_blank" rel="noopener noreferrer"
+                <a href="https://x.com/get_optimum" target="_blank" rel="noopener noreferrer"
                   className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border-2 border-gray-200
                     text-gray-600 text-xs font-bold hover:border-black hover:text-black transition-colors">
                   <XIcon /> X / Twitter
