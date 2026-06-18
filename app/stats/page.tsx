@@ -4,6 +4,8 @@ import React from "react";
 import prisma from "@/utils/connect";
 import UserStats from "@/components/UserStats";
 
+export const dynamic = "force-dynamic";
+
 async function page() {
   const { userId } = await auth();
 

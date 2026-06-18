@@ -1,15 +1,14 @@
 import arcjet, { tokenBucket } from "@arcjet/next";
 
 export const aj = arcjet({
-  key: process.env.ARCJET_KEY!,
+  key: process.env.ARCJET_KEY || "ajkey_placeholder_for_build",
   characteristics: ["userId"],
   rules: [
-    // Create a token bucket rate limit. Other algorithms are supported.
     tokenBucket({
-      mode: "LIVE", // will block requests. Use "DRY_RUN" to log only
-      refillRate: 2, // refill 2 tokens per interval
-      interval: 10, // refill every 10 seconds
-      capacity: 20, // bucket maximum capacity of 20 tokens
+      mode: "LIVE",
+      refillRate: 2,
+      interval: 10,
+      capacity: 20,
     }),
   ],
 });
